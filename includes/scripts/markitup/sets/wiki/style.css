@@ -1,0 +1,112 @@
+/* -------------------------------------------------------------------
+// markItUp!
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+.markItUp .markItUpButton1 a {
+	background-image:url(images/h1.png); 
+}
+.markItUp .markItUpButton2 a {
+	background-image:url(images/h2.png); 
+}
+.markItUp .markItUpButton3 a {
+	background-image:url(images/h3.png); 
+}
+.markItUp .markItUpButton4 a {
+	background-image:url(images/h4.png); 
+}
+.markItUp .markItUpButton5 a {
+	background-image:url(images/h5.png); 
+}
+
+.markItUp .markItUpButton6 a {
+	background-image:url(images/bold.png);
+}
+.markItUp .markItUpButton7 a {
+	background-image:url(images/italic.png);
+}
+.markItUp .markItUpButton8 a {
+	background-image:url(images/stroke.png);
+}
+
+.markItUp .markItUpButton9 a {
+	background-image:url(images/list-bullet.png);
+}
+.markItUp .markItUpButton10 a {
+	background-image:url(images/list-numeric.png);
+}
+
+.markItUp .markItUpButton11 a {
+	background-image:url(images/picture.png); 
+}
+
+.markItUpButton12 a	{background-image:url(images/picture_add.png);}
+.markItUpButton13 a	{background-image:url(images/briefcase.png);}
+
+.markItUp .markItUpButton14 a {
+	background-image:url(images/link.png);
+}
+.markItUp .markItUpButton15 a {
+	background-image:url(images/url.png);
+}
+
+.markItUp .codeGen a	{
+	background-image:url(images/code.png);
+}
+
+.markItUp .rssGen a	{
+	background-image:url(images/rss.png);
+}
+
+.markItUp .tablegenerator a {
+	background-image:url(images/table.png);
+}
+
+.markItUp .calculator a {
+	background-image:url(images/calculator.png);
+}
+
+.markItUp .helpGen a {
+	background-image:url(images/help.png);
+}
+.markItUp .nowikiGen a {
+	background-image:url(images/nowiki.png);
+}
+.markItUp .categories a {
+	background-image:url(images/categories.gif);
+}
+.markItUp .messageboxGen a {
+	background-image:url(images/messagebox.png);
+}
+.markItUp .pluginGen a {
+	background-image:url(images/plugin_icon.png);
+}
+.markItUp .preview a {
+	background-image:url(images/preview.png);
+}
+
+
+
+
+
+.clean a 	{background-image:url(images/clean.png);}
+.preview a 	{background-image:url(images/preview.png);}
+
+/* Added by CF Mitrah*/
+.markItUpInlineUpload		{position: absolute;z-index: 100;width: 320px;	margin: 22px 0 0 40px;padding: 1em;	background-color: #EEE;border:3px solid #3C769D;border-top-color: #EEE;}
+.markItUpInlineUpload > div {position: relative; } /* for positioning "loading" image */
+.markItUpInlineUpload label	{float: left; clear: left;width: 4em; height: 2em;padding-right: .5em;font-size: 80%;font-weight: bold;color: #666;text-align: right;}
+#inline_upload_close		{float: right;width: 16px; height: 16px;margin-top: 4px;background: transparent url(images/cancel.png) 0 0 no-repeat;cursor: pointer;}
+#inline_upload_iframe 		{display: none; }
+#linkPlugin 				{position:absolute;top:50%; left:50%;background:#FFF;border:4px solid #EFEFEF;outline::1px solid #3C769D;width:300px; font:12px "Trebuchet MS", Tahoma, sans-serif;zindex:10;display:none;}
+#linkPlugin 				{top:40%; left:40%;}
+.toolbar 					{position:relative;}
+.toolbar .close, 
+.toolbar .handle 			{text-indent:-1000px;overflow:hidden;width:16px; height:16px;display:block;position:absolute;top:5px;}
+.toolbar .close 			{background:transparent url(images/close.png) no-repeat top left;right:5px;}
+.toolbar .handle 			{background:transparent url(images/move.png) no-repeat top left;right:25px;cursor:move;}
+.module *					{margin:0px; padding:2px;}
+.module a:link, .module a:hover, .module a:visited, .module a:active {color:#3C769D;text-decoration:none;}
+.module 					{border:1px solid #3C769D;border-top:none;overflow:auto;}
+.module h3 					{background:#FFF url(../../../markitup/skins/markitup/images/bg-container.png) repeat-x top left;border-top:1px solid #3C769D;border-bottom:1px solid #3C769D;color:#000;}
+.module img 				{border:1px solid #3C769D;padding:3px;}
+.resizebar 		{border:1px solid #3C769D;background:#FFF url(../markitup/skins/markitup/images/bg-container.png) repeat-x top left;padding:5px;margin:5px;width:150px;text-align:center;outline:5px solid #EFEFEF;}
